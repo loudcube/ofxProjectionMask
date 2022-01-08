@@ -37,5 +37,5 @@ protected:
     int getHighlightedMaskFrameIndex();
     MaskFrame* getHighlightedMaskFrame();
     bool hasHighlightedMaskFrame();
-    int assignMaskFrameIds();
+    void assignMaskFrameIds();
 };

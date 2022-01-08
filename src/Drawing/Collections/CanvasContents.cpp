@@ -155,7 +155,7 @@ bool CanvasContents::hasHighlightedMaskFrame(){
     return i > -1;
 }
 
-int CanvasContents::assignMaskFrameIds(){
+void CanvasContents::assignMaskFrameIds(){
     for(int i = 0; i < maskFrames.size(); i++){
         maskFrames[i]->setId(i);
     }
